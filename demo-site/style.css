@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ヘッダー中央寄せ */
+.container {
+    height: 68px;
+    max-width: 900px;  /* 固定幅じゃなくて“最大幅” */
+    margin: 0 auto;     /* 中央寄せ */
+    padding: 0 32px;
+    display: flex;      /* 左右を横並びにする */
+    justify-content: space-between; /* 左右を離して配置 */
+    align-items: center; /* 縦の中央揃え */
+}
+
+/*.header-logo { 
+    background-color: black;
+    padding: 10px 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+*/
+
+.header-logo{
+    width: 140px;
+}
+
+.header-right ul {
+    display: flex;
+    gap: 30px;  /* About と Bicycle の間隔 */
+}
+
+li {
+    list-style: none;
+}

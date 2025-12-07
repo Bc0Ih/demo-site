@@ -44,3 +44,14 @@ li {
     object-fit: cover;
     
 }
+
+.section-title{
+    font-size: 30px;
+    padding-top: 40px;
+    display: inline-block;
+    border-bottom: 1px solid black;
+}
+
+.profile-wrapper{
+    text-align: center;
+}

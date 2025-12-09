@@ -1,17 +1,18 @@
 body {
   margin: 0;
   padding: 0;
+  color: #383e45;
 }
 
 /* ヘッダー中央寄せ */
 .container {
-    height: 68px;
-    max-width: 900px;  /* 固定幅じゃなくて“最大幅” */
-    margin: 0 auto;     /* 中央寄せ */
-    padding: 0 32px;
-    display: flex;      /* 左右を横並びにする */
-    justify-content: space-between; /* 左右を離して配置 */
-    align-items: center; /* 縦の中央揃え */
+  height: 68px;
+  max-width: 900px; /* 固定幅じゃなくて“最大幅” */
+  margin: 0 auto; /* 中央寄せ */
+  padding: 0 32px;
+  display: flex; /* 左右を横並びにする */
+  justify-content: space-between; /* 左右を離して配置 */
+  align-items: center; /* 縦の中央揃え */
 }
 
 /*.header-logo { 
@@ -24,34 +25,64 @@ body {
 
 */
 
-.header-logo{
-    width: 140px;
+.header-logo {
+  width: 140px;
 }
 
 .header-right ul {
-    display: flex;
-    gap: 30px;  /* About と Bicycle の間隔 */
+  display: flex;
+  gap: 30px; /* About と Bicycle の間隔 */
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .mainvisual {
-    width: 100%;
-    max-width: 1920px;
-    height: 600px;
-    object-fit: cover;
-    
+  width: 100%;
+  max-width: 1920px;
+  height: 600px;
+  object-fit: cover;
 }
 
-.section-title{
-    font-size: 30px;
-    padding-top: 40px;
-    display: inline-block;
-    border-bottom: 1px solid black;
+.section-title {
+  font-size: 30px;
+  padding-top: 40px;
+  display: inline-block;
+  border-bottom: 1px solid black;
+  margin-bottom: 58px;
 }
 
-.profile-wrapper{
+.profile-wrapper {
+  text-align: center;
+}
+
+.content img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 22px;
+}
+
+.text {
+  text-align: left;
+  margin-left: 30px;
+}
+
+.profile-name {
+  font-size: 15px;
+}
+
+.detail {
+  font-size: 14px;
+}
+
+.bicycle-wrapper{
     text-align: center;
 }

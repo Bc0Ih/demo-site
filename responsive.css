@@ -1,0 +1,23 @@
+@media screen and (max-width: 600px){
+
+    .mainvisual img{
+        height: calc(100vh - 60px);
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .content img{
+        margin-right: 0;
+    }
+
+    .bicycle-content {
+        flex-direction: column;
+    }
+
+    .hobby-content{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

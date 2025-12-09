@@ -3,3 +3,4 @@ Codejumpの入門編デモサイトを模写します。
 完成まで随時更新していきます。
 - mainvisualをmain画像として追加(2025/12/06)
 - section-titleを追加・調整(2025/12/07)
+- profile,footer,レスポンシブ対応(2025/12/09)

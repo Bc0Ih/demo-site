@@ -4,4 +4,5 @@ Codejumpの入門編デモサイトを模写します。
 - mainvisualをmain画像として追加(2025/12/06)
 - section-titleを追加・調整(2025/12/07)
 - profile,footer,レスポンシブ対応(2025/12/09)
-- 明日：AboutとBicycleをaタグでリンク化する。
+- AboutとBicycleをaタグでリンク化(2025/12/10)
+- 完成(2025/12/10)

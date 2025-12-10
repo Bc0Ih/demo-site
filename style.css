@@ -42,6 +42,10 @@ li {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .mainvisual {
   width: 100%;
   max-width: 1920px;
